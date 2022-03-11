@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() { initiatePlayer(); }, false);
 
-function initiatePlayer(){  //Remove default controls. Do for every audio object you have, with the relative id
+function initiatePlayer(){  //Remove default controls
     var customAudioPlayers = document.getElementsByClassName("customAudio");
 
     for(var i = 0; i++; i < customAudioPlayers.length){
