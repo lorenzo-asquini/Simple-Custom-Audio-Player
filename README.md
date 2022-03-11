@@ -30,7 +30,7 @@ In [main.html](main.html):
 
 In [script.js](script.js):
 
--Change the interval of the handler to make it more responsive:
+-Change the interval of the handler to make it more or less responsive:
 
 `setInterval( function() { handlePlayerStats(parentId);}, 500);`
 
