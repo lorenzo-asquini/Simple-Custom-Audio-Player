@@ -28,6 +28,12 @@ In [main.html](main.html):
   
 `<source src="#"/>`
 
+In [script.js](script.js):
+
+-Change the interval of the handler to make it more responsive:
+
+`setInterval( function() { handlePlayerStats(parentId);}, 500);`
+
 ## Project Status
 The project is complete
 
