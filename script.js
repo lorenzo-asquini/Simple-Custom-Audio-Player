@@ -5,7 +5,6 @@ function initiatePlayer(){  //Remove default controls
 
     for(var i = 0; i++; i < customAudioPlayers.length){
         customAudioPlayers[i].controls = false;
-        customAudioPlayers[i].preload = "none";
     }
 }
 
