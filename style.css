@@ -16,7 +16,7 @@
     position: relative;
     vertical-align: middle;
     height: 25px;
-    /*width: calc(98% - 170px); OR calc(98% - 140px); Space remaining after removing time margin and space used by other elements. Set in JS*/
+    width: calc(98% - 170px); /*OR calc(98% - 140px); Space remaining after removing time margin and space used by other elements. Set in JS*/
 }
 
 .time{
