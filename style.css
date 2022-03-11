@@ -1,0 +1,28 @@
+.audioPlayerBox{
+    background-color:rgb(253, 89, 1);
+    width: max(50vw, 250px);  /*60px max for the timing (2), 30px for the button, 20px for the padding, 70px for the slider, 10px extra*/
+    height:40px;
+    margin-left: calc((100vw - max(50vw, 250px)) / 2);
+    padding:5px;
+    box-sizing:border-box;
+}
+
+#controlButton{
+    float:left;
+    height:30px;
+}
+
+#timeSlider{
+    position: relative;
+    vertical-align: middle;
+    height: 25px;
+    /*width: calc(98% - 170px); OR calc(98% - 140px); Space remaining after removing time margin and space used by other elements. Set in JS*/
+}
+
+.time{
+    vertical-align: middle;
+}
+
+#currentTime{
+    margin-left: 2%;
+}
